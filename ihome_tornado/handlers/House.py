@@ -366,8 +366,8 @@ class IndexHandler(BaseHandler):
             except Exception as e:
                 logging.error(e)
                 return self.write({"errcode":RET.DBERR, "errmsg":"get data error"})
-            if not house_ret:
-                return self.write({"errcode":RET.NODATA, "errmsg":"no data"})
+            # if not house_ret:
+                # return self.write({"errcode":RET.NODATA, "errmsg":"no data"})
             houses = []
             for l in house_ret:
                 if not l["hi_index_image_url"]:
