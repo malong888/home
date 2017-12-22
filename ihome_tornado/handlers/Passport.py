@@ -11,21 +11,6 @@ from utils.response_code import RET
 from utils.session import Session
 from utils.commons import required_login
 
-
-# class LogHandler(RequestHandler):
-#     def get(self):
-#         # self.application.db.execute(sql, )
-#         # self.application.redis.setex()
-#         a = 123
-#         logging.debug(a)
-#         logging.debug("this is debug msg")
-#         logging.info("this is info msg")
-#         logging.warning("this is warning msg")
-#         logging.error("this is error msg")
-#         print("this is print msg")
-#         self.write("OK")
-
-
 class RegisterHandler(BaseHandler):
     """注册"""
     def post(self):
