@@ -9,13 +9,13 @@ import ConfigParser
 import logging
 
 #主帐号
-accountSid= '8aaf0708568d4143015697b0f4960888';
+accountSid= '8a216da86077dcd001607d2cbc3d02b2'
 
 #主帐号Token
-accountToken= '42d3191f0e6745d6a9ddc6c795da0bed';
+accountToken= '29dc1b3d316d47518df1519864988961'
 
 #应用Id
-appId='8aaf0708568d4143015697b0f56e088f';
+appId='8a216da86077dcd001607d2cbc9202b8'
 
 #请求地址，格式如下，不需要写http://
 serverIP='app.cloopen.com';
