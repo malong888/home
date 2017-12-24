@@ -40,26 +40,3 @@ class StaticFileBaseHandler(StaticFileHandler):
     def __init__(self, *args, **kwargs):
         super(StaticFileBaseHandler, self).__init__(*args, **kwargs)
         self.xsrf_token
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -93,32 +93,3 @@ class SMSCodeHandler(BaseHandler):
             self.write(dict(errcode=RET.OK, errmsg="发送成功"))
         else:
             self.write(dict(errcode=RET.UNKOWNERR, errmsg="发送失败"))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

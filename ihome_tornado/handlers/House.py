@@ -666,21 +666,3 @@ class HouseListRedisHandler(BaseHandler):
             logging.error(e)
 
         self.write(house_data[page])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
